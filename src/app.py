@@ -49,7 +49,6 @@ def handle_invalid_usage(error):
 
 # generate sitemap with all your endpoints
 
-
 @app.route('/')
 def sitemap():
     if ENV == "development":
